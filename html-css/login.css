@@ -1,0 +1,71 @@
+/* 全体背景色 */
+* {
+    background-color: #333;
+}
+
+/* ログインフォーム配置 */
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+/* ヘッダー文字色 */
+.header {
+    color: white;
+}
+
+/* メール文字色 */
+.mail{
+    color: white;
+    font-weight: bold;
+}
+
+/* メール入力欄 */
+.mail-input {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: darkgray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* パスワード文字色 */
+.password {
+    color: white;
+    font-weight: bold;
+}
+
+/* パスワード入力欄 */
+.password-input {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: darkgray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* ログインボタン */
+.login-button-item {
+    width: 420px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color:royalblue;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Don't have an account yet?の文字色 */
+.signup-confirm {
+    color: gray;
+}
+
+/* 新規登録リンク文字色 */
+.signup-link {
+    color: royalblue;
+}
