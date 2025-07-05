@@ -2,3 +2,21 @@
     background-color: black;
 }
 
+.container {
+    display: flex;
+    border: 1px solid #333;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content:center;
+}
+
+.container > * {
+    flex: 0 0 45%;
+    border: 1px solid #333;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
