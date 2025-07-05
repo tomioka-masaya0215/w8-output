@@ -2,7 +2,7 @@
 //ローカルストレージからログイン情報を取得する
 let getItemEmail = localStorage.getItem('email');
 let getItemPass = localStorage.getItem('password');
-if(getItemEmail != "" && getItemPass != "") {
+if(getItemEmail != null && getItemPass != null) {
     // ログイン情報を入力欄にセットする
     document.getElementById('email').value = getItemEmail;
     document.getElementById('password').value = getItemPass;
@@ -15,7 +15,7 @@ function setLocalStorage(){
     //ローカルストレージからログイン情報を取得する
     let getItemEmail = localStorage.getItem('email');
     let getItemPass = localStorage.getItem('password');
-    if(getItemEmail == "" && getItemPass == "") {
+    if(getItemEmail == null && getItemPass == null) {
         //フォームから入力されたログイン情報を取得する
         let email = document.getElementById('email').value;
         let password = document.getElementById('password').value;
