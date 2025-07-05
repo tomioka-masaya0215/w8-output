@@ -1,0 +1,64 @@
+*{
+    background-color: black;
+    color: aliceblue;
+}
+
+/* 4*4のフレックスボックス */
+.container4by4 {
+    display: flex;
+    border: 1px solid #333;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content:center;
+}
+
+.container4by4 > * {
+    flex:0 0 20%;
+    border: 1px solid #333;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+/* 2*2のフレックスボックス */
+.container2by2 {
+    display: flex;
+    border: 1px solid #333;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content:center;
+}
+
+.container2by2 > * {
+    flex: 0 0 45%;
+    border: 1px solid #333;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+/* 6*1のフレックスボックス */
+.container6by1 {
+    display: flex;
+    border: 1px solid #333;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container6by1 > * {
+    flex: 1;
+    border: 1px solid #333;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
